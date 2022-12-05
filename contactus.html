@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="contactus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Sai Nagar, Kondhawa</div>
+          <div class="text-two">pune 411048</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+78 21963 6611</div>
+          <div class="text-two">+96 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">ymb0802@gmail.com</div>
+          <div class="text-two">yogeshmborole3309@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Connect with us we shall get back to you. We place great importance to your feedback and suggestions.
+          Therefore, we would like to hear about your experience at Aureus Hospital and understand if we met your
+          expectations. All you have to do is fill in the form below and click on submit.</p>
+        <form action="/contactus" method="post">
+          <div class="input-box">
+            <input type="text" name="firstName" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <input type="text" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box message-box">
+            <input type="text" name="ctext" placeholder="Enter your message" size="50" required>
+          </div>
+          <div class="button">
+            <input type="submit" value="submit" >
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
